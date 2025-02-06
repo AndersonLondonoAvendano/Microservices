@@ -1,0 +1,15 @@
+package com.microservice.course.dto;
+
+import jakarta.persistence.Column;
+
+public class StudentDTO {
+
+    private String name;
+
+    @Column(name = "last_name")
+    private String lastName;
+    private  String email;
+
+    @Column(name = "course_id")
+    private Long courseId;
+}
