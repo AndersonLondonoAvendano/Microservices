@@ -17,7 +17,7 @@ The ecosystem consists of several independent services that work together:
 2. **Courses Microservice**:
    - Manages logic related to courses.
    - Connected to a MySQL database.
-   - Runs on port **9090**.
+   - Runs on port **9091**.
 
 3. **Students Microservice**:
    - Manages logic related to students.
